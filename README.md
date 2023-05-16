@@ -19,15 +19,15 @@ To use Pandas AI, you need to import PandasAI and OpenAI, and then initialize an
 3. from pandasai.llm.openai import OpenAI
 
 ### Instantiate a LLM
-from pandasai.llm.openai import OpenAI
-llm = OpenAI(api_token="your_api_key")
-pandas_ai = PandasAI(llm, conversational=False)
+- from pandasai.llm.openai import OpenAI
+- llm = OpenAI(api_token="your_api_key")
+- pandas_ai = PandasAI(llm, conversational=False)
 
 If you don't have an OpenAI API key, you can create an account on the OpenAI platform and generate an API key.
 
 Next, 
 ### Run the model on your data frame
-pandas_ai.run(df, prompt='the question you would like to ask?')
+- pandas_ai.run(df, prompt='the question you would like to ask?')
 
 ### License
 PandasAI is licensed under the MIT License. See the LICENSE file for more details.
