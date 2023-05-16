@@ -35,6 +35,8 @@ Next,
 ```
 pandas_ai.run(df, prompt='the question you would like to ask?')
 ```
+### Example
+open `PandasAI.ipynb` to see example
 
 ### License
 PandasAI is licensed under the MIT License. See the LICENSE file for more details.
